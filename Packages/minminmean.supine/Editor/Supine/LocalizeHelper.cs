@@ -8,7 +8,7 @@ namespace Supine
 {
     public static class LocalizeHelper
     {
-        private static string _localizeGuid = "560e0ecd7c0f2fc40bf8eed5acbc252a";
+        private static string _localizeGuid = "c2457975623f2cc489bb34d9bcca983e";
 
         public enum Language
             {
