@@ -28,16 +28,16 @@ public class SupineCombiner
     public bool canCombine = true;
     public bool alreadyCombined = false;
 
-    private string _supineDirGuid = "70b978bb246788742a09b3b4d15607e0";
-    private string _templatesGuid = "a279adf23ad4cba488f5fd608d9b0d9d";
-    private string _maPrefabGuid = "cd857e30f0047d54788556f8c86f87bc";
-    private string _animatorGuid = "cf848941151443043b67c8c1fe47fc9c";
+    private string _supineDirGuid = "2d76018424e030f4597625fa4cdb0d28";
+    private string _templatesGuid = "ea86c0575ff5d3349b795b2be287edb4";
+    private string _maPrefabGuid = "f0776ab98fcb1bd4fbb991a3fb0f3d54";
+    private string _animatorGuid = "54574f02780fe18449d0bdf9e17bee7d";
     private string[] _sittingAnimationGuids =
     {
-        "791f3e6b0412fdd448f7684c90d9097c", // ぺたん
-        "fe9efa339d22425449d665b9195a27a8", // 立膝（女）
-        "3199fda3571b5574795952814ffd568e", // あぐら
-        "f6d024ba7a2e76c47bc045926aef0654"  // 立膝（男）
+        "4de1b4829899b754db2ec3e28014a61e", // ぺたん
+        "8d965ea5d99a8cf40bd517890509b5b2", // 立膝（女）
+        "7763fb4ad4e8be942861867e99e04deb", // あぐら
+        "1e0291513c4de5e4c8c210f788354cba"  // 立膝（男）
     };
 
     private ExpressionParameter[] _oldSupineParameters = new ExpressionParameter[11]
