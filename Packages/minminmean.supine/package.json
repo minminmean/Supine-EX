@@ -1,12 +1,13 @@
 {
   "name": "minminmean.supine",
-  "displayName": "minminmean.supine",
-  "version": "0.0.1",
+  "displayName": "Gorone System (Supine)",
+  "version": "4.1.1",
   "description": "Describe this Package",
   "dependencies": {},
   "gitDependencies": {},
   "vpmDependencies": {
-    "com.vrchat.avatars": "3.8.0"
+    "com.vrchat.avatars": ">=3.8.0",
+    "nadena.dev.modular-avatar": ">=1.12.3"
   },
   "author": {
     "name": "MinMinMean",
@@ -15,5 +16,6 @@
   },
   "legacyFolders": {},
   "legacyFiles": {},
-  "localPath": "E:\\VCCProject\\Supine\\Packages\\minminmean.supine"
+  "localPath": "",
+  "unity": "2022.3"
 }

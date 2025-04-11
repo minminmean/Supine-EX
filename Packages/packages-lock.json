@@ -105,12 +105,6 @@
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       }
     },
-    "com.vrchat.demo-template": {
-      "version": "file:com.vrchat.demo-template",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "minminmean.supine": {
       "version": "file:minminmean.supine",
       "depth": 0,
