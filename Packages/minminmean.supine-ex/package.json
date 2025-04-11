@@ -1,8 +1,8 @@
 {
-  "name": "minminmean.supine",
-  "displayName": "Gorone System (Supine)",
-  "version": "4.1.1-ex",
-  "description": "Describe this Package",
+  "name": "minminmean.supine-ex",
+  "displayName": "Gorone System EX (Supine EX)",
+  "version": "4.1.1",
+  "description": "Have a good sleep",
   "dependencies": {},
   "gitDependencies": {},
   "vpmDependencies": {

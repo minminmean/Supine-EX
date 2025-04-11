@@ -1,8 +1,12 @@
 {
-  "name": "minminmean.supine",
+  "name": "minminmean.supine-ex.Editor",
   "references": [
+    "nadena.dev.modular-avatar.core",
     "VRC.SDK3A",
-    "VRC.SDKBase"
+    "VRC.SDK3A.Editor",
+    "VRC.SDKBase",
+    "VRC.SDKBase.Editor",
+    "minminmean.supine"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],
