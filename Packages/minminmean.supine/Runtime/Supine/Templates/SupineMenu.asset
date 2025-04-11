@@ -24,6 +24,16 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: 04c694e8b38d1c84b898da484bf8a442, type: 2}
     subParameters: []
     labels: []
+  - name: Ex Poses
+    icon: {fileID: 2800000, guid: 4670d360731533546a85ff60fcb8f52d, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 5
+    style: 0
+    subMenu: {fileID: 11400000, guid: 9f65aea26953d9f4496e8c48bd3fb032, type: 2}
+    subParameters: []
+    labels: []
   - name: Enable Hand Switch
     icon: {fileID: 2800000, guid: 6c7aa1897f3966e4eb84bf8c3f311b40, type: 3}
     type: 102

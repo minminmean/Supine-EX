@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: MainMenu
   m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
   controls:
-  - name: Suimin
+  - name: SuiminEx
     icon: {fileID: 2800000, guid: 4eac21cb343714f4f985cbe7668a1bc4, type: 3}
     type: 103
     parameter:
