@@ -1,15 +1,17 @@
 {
-  "name": "minminmean.supine-ex",
-  "references": [
-    "VRC.SDK3A",
-    "VRC.SDKBase"
-  ],
-  "includePlatforms": [],
-  "excludePlatforms": [],
-  "allowUnsafeCode": false,
-  "autoReferenced": true,
-  "overrideReferences": false,
-  "precompiledReferences": [],
-  "defineConstraints": [],
-  "optionalUnityReferences": []
+    "name": "minminmean.supine-ex",
+    "rootNamespace": "",
+    "references": [
+        "VRC.SDK3A",
+        "VRC.SDKBase"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

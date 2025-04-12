@@ -1,13 +1,14 @@
 {
   "name": "minminmean.supine-ex",
   "displayName": "Gorone System EX (Supine EX)",
-  "version": "4.1.1",
-  "description": "Have a good sleep",
+  "version": "4.2.0",
+  "description": "Have a good night",
   "dependencies": {},
   "gitDependencies": {},
   "vpmDependencies": {
     "com.vrchat.avatars": ">=3.8.0",
-    "nadena.dev.modular-avatar": ">=1.12.3"
+    "nadena.dev.modular-avatar": ">=1.12.3",
+    "minminmean.supine": "4.2.0"
   },
   "author": {
     "name": "MinMinMean",
