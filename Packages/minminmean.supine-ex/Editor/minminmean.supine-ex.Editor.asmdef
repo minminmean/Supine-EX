@@ -11,7 +11,9 @@
         "minminmean.supine.Editor",
         "minminmean.supine-ex"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
