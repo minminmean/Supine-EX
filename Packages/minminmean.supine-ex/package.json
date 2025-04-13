@@ -1,21 +1,18 @@
 {
   "name": "minminmean.supine-ex",
   "displayName": "Gorone System EX (Supine EX)",
-  "version": "4.2.2",
+  "version": "4.2.3",
   "description": "Have a good night",
   "gitDependencies": {},
   "vpmDependencies": {
     "com.vrchat.avatars": ">=3.8.0",
     "nadena.dev.modular-avatar": ">=1.12.3",
-    "minminmean.supine": "4.2.2"
+    "minminmean.supine": "~4.2.3"
   },
   "author": {
     "name": "MinMinMean",
     "email": "duralumin0221@gmail.com",
     "url": "https://github.com/minminmean"
   },
-  "legacyFolders": {},
-  "legacyFiles": {},
-  "localPath": "",
   "unity": "2022.3"
 }
