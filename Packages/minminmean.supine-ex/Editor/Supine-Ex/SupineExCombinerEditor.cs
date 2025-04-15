@@ -1,16 +1,19 @@
 using UnityEngine;
 using UnityEditor;
 
-public class SupineExCombinerEditor : SupineCombinerEditor
+namespace Supine
 {
-    [MenuItem("Tools/MinMinMart/Supine Combiner (EX)")]
-    private static void Create()
+    public class SupineExCombinerEditor : SupineCombinerEditor
     {
-        GetWindow<SupineExCombinerEditor>("Supine Combiner (EX)");
-    }
+        [MenuItem("Tools/MinMinMart/Supine Combiner (EX)")]
+        private static void Create()
+        {
+            GetWindow<SupineExCombinerEditor>("Supine Combiner (EX)");
+        }
 
-    protected override SupineCombiner InstantiateCombiner(GameObject avatar)
-    {
-        return new SupineExCombiner(avatar);
+        protected override SupineCombiner InstantiateCombiner(GameObject avatar)
+        {
+            return new SupineCombiner(avatar, exMode: true);
+        }
     }
 }
