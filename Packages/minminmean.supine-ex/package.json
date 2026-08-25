@@ -3,6 +3,7 @@
   "displayName": "Gorone System EX (Supine EX)",
   "version": "4.3.5",
   "description": "Have a good night",
+  "license": "MIT",
   "gitDependencies": {},
   "vpmDependencies": {
     "com.vrchat.avatars": ">=3.7.0",
