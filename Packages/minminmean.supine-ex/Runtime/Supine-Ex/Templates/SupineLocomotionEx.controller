@@ -1810,6 +1810,8 @@ AnimatorState:
   - {fileID: 8762422103115868041}
   - {fileID: -4838827786395486797}
   - {fileID: 2312578901076632909}
+  - {fileID: 416398158747891836}
+  - {fileID: 225930421604097197}
   - {fileID: 2141997601069678038}
   m_StateMachineBehaviours:
   - {fileID: -6796058344817122493}
@@ -2389,6 +2391,34 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1101 &416398158747891836
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 6
+    m_ConditionEvent: VRCSupine
+    m_EventTreshold: 56
+  - m_ConditionMode: 1
+    m_ConditionEvent: PoseChanged
+    m_EventTreshold: 7
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -3351740478759416142}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1101 &-4836644689284041526
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2734,6 +2764,31 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1101 &224614467904066515
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 6
+    m_ConditionEvent: VRCSupine
+    m_EventTreshold: 56
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -3351740478759416142}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1101 &-4206719481950780916
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2898,6 +2953,34 @@ AnimatorStateTransition:
   - m_ConditionMode: 6
     m_ConditionEvent: VRCSupine
     m_EventTreshold: 51
+  - m_ConditionMode: 1
+    m_ConditionEvent: PoseChanged
+    m_EventTreshold: 5
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -1378613847166390373}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &225930421604097197
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 6
+    m_ConditionEvent: VRCSupine
+    m_EventTreshold: 55
   - m_ConditionMode: 1
     m_ConditionEvent: PoseChanged
     m_EventTreshold: 5
@@ -3800,6 +3883,8 @@ AnimatorState:
   - {fileID: -898446347453576080}
   - {fileID: -4283108371520380173}
   - {fileID: -4450260218785384841}
+  - {fileID: 224614467904066515}
+  - {fileID: 442920219398894109}
   m_StateMachineBehaviours:
   - {fileID: 7746857265184341593}
   m_Position: {x: 50, y: 50, z: 0}
@@ -9821,6 +9906,31 @@ AnimatorStateTransition:
   - m_ConditionMode: 6
     m_ConditionEvent: VRCSupine
     m_EventTreshold: 51
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -1378613847166390373}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &442920219398894109
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 6
+    m_ConditionEvent: VRCSupine
+    m_EventTreshold: 55
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1378613847166390373}
   m_Solo: 0
