@@ -1,14 +1,14 @@
 {
   "name": "minminmean.supine-ex",
   "displayName": "Gorone System EX (Supine EX)",
-  "version": "4.5.1",
-  "description": "Have a good night",
+  "version": "5.0.0",
+  "description": "Extra poses for Gorone System, shipped as a pose pack",
   "license": "MIT",
   "gitDependencies": {},
   "vpmDependencies": {
     "com.vrchat.avatars": ">=3.7.0",
     "nadena.dev.modular-avatar": ">=1.12.3",
-    "minminmean.supine": ">=4.5.1"
+    "minminmean.supine": ">=4.6.0"
   },
   "author": {
     "name": "MinMinMean",
