@@ -8,7 +8,7 @@
   "vpmDependencies": {
     "com.vrchat.avatars": ">=3.7.0",
     "nadena.dev.modular-avatar": ">=1.12.3",
-    "minminmean.supine": ">=4.6.0"
+    "minminmean.supine": ">=5.0.0"
   },
   "author": {
     "name": "MinMinMean",
