@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d81597c2a03fa246a0da49d37203b56, type: 3}
+  m_Name: SupineExPosePack
+  m_EditorClassIdentifier:
+  packId: minminmean.supine-ex
+  sortOrder: 0
+  minimumSupineVersion:
+  menuFolderName: Ex Poses
+  poseAdjust: 1
+  menuIcon: {fileID: 2800000, guid: 4670d360731533546a85ff60fcb8f52d, type: 3}
+  poses:
+  - id: MJI
+    displayName: MJI
+    icon: {fileID: 2800000, guid: 1e2ecd53a7817484e9fef0964f92f8b9, type: 3}
+    clip: {fileID: 7400000, guid: 0e46895cbc3eebd43a2ba9a1b74ac856, type: 2}
+    uprightThreshold: 0.41
+    headTracking: 0
+    preferredValue: 51
+  - id: DISK
+    displayName: DISK
+    icon: {fileID: 2800000, guid: 612618ba789950845b9b660f8fe5d21d, type: 3}
+    clip: {fileID: 7400000, guid: b623437f54ad5b84db81ff8f17f8c984, type: 2}
+    uprightThreshold: 0.41
+    headTracking: 0
+    preferredValue: 55
+  - id: KJI
+    displayName: KJI
+    icon: {fileID: 2800000, guid: 802e13e8beeadd44e8cfe6681e509bc3, type: 3}
+    clip: {fileID: 7400000, guid: f0e5d6eac8d64fb47b45de50dde2c9e7, type: 2}
+    uprightThreshold: 0.62
+    headTracking: 1
+    preferredValue: 52
+  - id: KJI_ZNK
+    displayName: KJI_ZNK
+    icon: {fileID: 2800000, guid: 67ce4640c4c3fe14792847ec9e642455, type: 3}
+    clip: {fileID: 7400000, guid: b83d4cf456db8ba4db2c7aef7ca658f3, type: 2}
+    uprightThreshold: 0.62
+    headTracking: 1
+    preferredValue: 56
+  - id: SNK
+    displayName: SNK
+    icon: {fileID: 2800000, guid: d48b1ae964b7b684eb63565a937abaea, type: 3}
+    clip: {fileID: 7400000, guid: 6367f8b3ecee27546bac9730da9e2374, type: 2}
+    uprightThreshold: 0.62
+    headTracking: 1
+    preferredValue: 53
+  - id: SRAG
+    displayName: SRAG
+    icon: {fileID: 2800000, guid: 808d1704e2199ed4387d6ff7b2294ab2, type: 3}
+    clip: {fileID: 7400000, guid: f3d58521531b8234887555ddebf8ef6c, type: 2}
+    uprightThreshold: 0.55
+    headTracking: 0
+    preferredValue: 54
